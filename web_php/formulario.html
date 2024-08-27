@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="formulario.js"></script>
+</head>
+
+<body>
+<h1 class="titulo" >Formulário WEB</h1>
+<div class="card">
+    <form action="envio.php" method="post" onsubmit=" return validarFormulario();">
+        <label for="name">Nome:</label>
+        <input name="name" id="name" type="text">
+
+        
+
+        <label for="cpf">CPF:</label>
+        <input name="cpf" id="cpf" type="number">
+
+        
+        <input type="submit" value="Enviar">
+        
+    </form>
+</div>
+
+
+
+
+
+
+
+
+<style src="formulario.css"></style>
+</body>
+</html>
