@@ -35,7 +35,8 @@
         Por favor insira seu nome e CPF válidos para registrar a batida do ponto.
         <button id="botaoFechar">Fechar</button>
     </dialog>
-
+//criar um btão select com uma opção pre-selecionada de entrada, intervalo, volta intervalo e saida
+    // ao selecionar tem q estar pre selecionada a opção mais perto
     <script>
         var dialogo = document.getElementById('meuDialogo');
         var botaoFechar = document.getElementById('botaoFechar');
